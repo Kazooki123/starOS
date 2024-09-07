@@ -1,6 +1,13 @@
 [package]
 name = "staros"
 version = "0.1.0"
+description = "A Operating system"
+authors = ["Kazooki123", "StarloExoliz"]
 edition = "2021"
+license = "MIT"
 
 [dependencies]
+
+[[bin]]
+name = "kernel"
+path = "src/kernel/main.rs"
